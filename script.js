@@ -6,7 +6,6 @@ async function getPaises(url) {
         .then(paises => {
             requestQuizApply(paises);
         })
-
 }
 
 function requestQuizApply(paises) {
@@ -16,7 +15,6 @@ function requestQuizApply(paises) {
         // ALTERAR JQUERY ATUAL
         document.querySelector('#txt-answer-box')
             .jQuery321074004899226539741.events.input[0].handler.apply()
-
     });
 }
 
