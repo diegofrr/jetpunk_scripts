@@ -9,7 +9,7 @@ async function getConcelhos(url) {
 }
 
 function requestQuizApply(concelhos) {
-    paises.forEach(nome_concelho => {
+    concelhos.forEach(nome_concelho => {
         document.querySelector('#txt-answer-box').value = nome_concelho;
 
         // ALTERAR JQUERY ATUAL
