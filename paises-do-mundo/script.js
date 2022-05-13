@@ -1,6 +1,6 @@
 document.querySelector('#start-button').click()
 
-const url = 'https://raw.githubusercontent.com/diegofrr/lista_paises/main/jetpunk_paises.json';
+const url = 'https://raw.githubusercontent.com/diegofrr/jetpunk_scripts/main/paises-do-mundo/jetpunk_paises.json';
 
 async function getPaises(url) {
     await fetch(url)
