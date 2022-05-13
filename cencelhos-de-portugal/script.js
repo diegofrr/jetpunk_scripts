@@ -7,7 +7,6 @@ async function getConcelhos(url) {
         .then(response => response.json())
         .then(concelhos => requestQuizApply(concelhos))
 }
-
 function requestQuizApply(concelhos) {
     concelhos.forEach(nome_concelho => {
         document.querySelector('#txt-answer-box').value = nome_concelho;
