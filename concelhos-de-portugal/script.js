@@ -1,6 +1,6 @@
 document.querySelector('#start-button').click()
 
-const url = 'https://raw.githubusercontent.com/diegofrr/jetpunk_scripts/main/cencelhos-de-portugal/concelhos.json';
+const url = 'https://raw.githubusercontent.com/diegofrr/jetpunk_scripts/main/concelhos-de-portugal/concelhos.json';
 
 async function getConcelhos(url) {
     await fetch(url)
